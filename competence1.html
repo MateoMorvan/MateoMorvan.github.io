@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Site Web Sur Morvan Mateo</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="accueil">PORTFOLIO de MORVAN Mateo</h1>
+        <!-- Permet de naviguer à travers les compétences -->
+    </header>
+    <div id="test">
+        <nav id="barreNav">
+            <a href="index.html">Accueil</a>
+            <a href="passion.html">Passion</a>
+            <a href="competence2.html">Compétence suivante</a>
+            <a href="Contact.html">Contact</a>
+            <a href="telechargementCV.html">Téléchargement Cv</a>
+        </nav>
+    </div>
+    <main>
+        <h1>Langage C</h1>
+        <div class="dimitri1">
+            <h2>Projet N°1: Le Jeu Du Sudoku</h2>
+            <p>Au cours de notre première année à l'IUT le premier projet avec de la programmation que j'ai eu à
+                réaliser était un projet où je devais programmer un jeu du Sudoku. Ce projet devait être réaliser seul.
+                Pour cela je devais passer par plusieurs étapes.</p>
+            <h3>Etape 1</h3>
+            <p>Dans un premier temps j'ai dû réaliser le sudoku au Pseudo-code. Ce Pseudo-code allait nous permettre
+                de comprendre celui ci fonctionne et comment nous allion le réaliser.</p>
+            <h3>Etape 2</h3>
+            <p>La deuxième étape était la réalisation d'un cahier de test qui allait être à compléter à la fin du
+                projet.
+                Je devais donc m'occuper de prévoir tout ce que l'application devait faire ou ne pas faire.</p>
+            <h4>Cahier de test:</h4>
+            <img src="image/Capture d’écran 2024-06-17 à 22.05.24.png" width="1000px" height="600px"
+                alt="Eurreur chargement" class="image">
+
+            <h3>Etape 3</h3>
+            <p>L'étape 3 était le début de la réalisation du projet. Je devais donc réaliser le jeu de sudoku en
+                langage C.
+                Je devais suivre le Pseudo-code qui avait été réaliser en début de projet afin d'être sûr que celui ci
+                corresponde bien avec les attendus du client car oui ce projet avait aussi des attendues.</p>
+            <h4>Explication sur comment j'ai réalisée le sudoku</h4>
+            <p>Pour ce sudoku j'ai réalisé une grille de taille 9*9, Il fallait donc créer plusieurs procédures et
+                fonction
+                car il fallait vérifier en colonne, en ligne et dans la case de 3*3 si le chiffre n'étais pas présent
+                deux
+                fois. Il fallait prévoir des erreurs qui pouvait permmettre à l'utilisateur de comrpendre où es qu'il
+                c'était tromper. Il fallait aussi gérer l'affichage qui devait s'actualiser et aussi la saisie des
+                chiffres
+                qui devait être entre 1 et 9 (inclus).</p>
+            <p>C'était la parti la plus longue et la plus dur du projet. Mais ensuite il fallait tester son programme
+                pour
+                voir si ce dernier répondait correctement au cahier de test qui avait aussi été fait au début du projet.
+                Ce
+                qui nous mène à l'étapes 4 !</p>
+            <h3>Etape 4</h3>
+            <p>L'étape 4 est, comme dit avant, le moment de test notre programme pour voir si il répond comme je
+                l'attendais dans le cahier de test. J'ai donc du préparer une rendu pour prouver que ce dernier
+                répondait comme il je l'avais attendu.</p>
+            <h4>Lien du GitHub pour ce projet :</h4>
+            <a href="https://github.com/MateoMorvan/C/tree/Sudoku(v1)" class="git">Sudoku</a>
+        </div>
+        <div class="dimitri2">
+            <h2>Projet N°2: Solver Du Jeu Du Sudoku</h2>
+            <p>Ce projet fait suite au projet du jeu du Sudoku. Il s'agit de la réalisation d'un deuxième programme en c
+                dont le but est de résoudre le plus vite possible le programme du jeu de Sudoku qu'on avait réaliser
+                juste
+                avant. Ce projet quand à lui se faisait par groupe de deux.</p>
+            <h3>Etape 1</h3>
+            <p>Comme dans le projet du jeu du Sudoku, la première étape est la réalisation d'un pseudo-code. Enfin dans
+                ce
+                projet nous devions faire 2 pseudo code en réalité. Chacun des pseudos codes abordaient une méthode
+                différent pour résoudre le Sudoku. Pour résoudre le sudoku automatiquement et le plus vite possible il
+                faut
+                utiliser une méthode de backtraking. Le but étant d'essayer le plus de possibilité en peu de temps. On
+                peu
+                optimiser cette méthode en éliminant les chiffres évidants qui n'avait d'une possiblité. Si un chemin
+                n'était pas bon on revenait en arrière pour voir si il un autre chemin pouvait fonctionner et ainsi de
+                suite. Pour en revenir au deux façon de faire il y a une méthode où l'on fait le backtraking avec des
+                integer et une autre méthode où l'on fait le backtraking avec des string. Logiquement le plus optimiser
+                serait le backtraking avec les integer mais cela dépend de comment le Sudoku est réalisé.</p>
+            <h3>Etape 2</h3>
+            <p>La deuxième étape étaient la réalisation du Solveur, Ici nous n'avions pas besoin de cahier de test car
+                la
+                seul chose que le Sudoku devait faire c'était de résoudre. Il n'y avait donc aucune saise sauf pour la
+                saisie de la grille à chaque lancement du programme. Il fallait juste ensuite enregistrer les temps
+                réaliser
+                afin de déterminer si notre programme pouvait résoudre des grilles simples ou durs en peu de temps. Les
+                grilles utilisés ne sont pas les mêmes que utilisés juste avant car il s'agit de maxi grille mais le
+                programme fonctionne aussi avec des petites grilles.</p>
+            <h4>Exemple de ce que fait le Solveur:</h4>
+            <img src="image/Capture d’écran 2024-06-17 à 23.04.05.png" width="300px" height="500px"
+                alt="Eurreur chargement" class="image">
+            <h4>Lien du GitHub pour ce projet :</h4>
+            <a href="https://github.com/MateoMorvan/C/compare/SolverSudoku" class="git">Solver Sudoku</a>
+        </div>
+    </main>
+    <footer>
+        <p> Ce site à été réalisé dans le cas d'un projet étudiant, et n'est qu'un prototype</p>
+        <p> réalisé par : Morvan Mateo </p>
+        <p> Année de création : 2023 / BUT 1 / IUT INFORMATIQUE</p>
+    </footer>
+</body>
+
+</html>

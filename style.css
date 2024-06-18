@@ -1,0 +1,260 @@
+/* body */
+
+body {
+  background-color: #1b263b;
+}
+
+/* header */
+
+header {
+  background-color: #1b263b;
+  color: white;
+  width: 100%;
+}
+
+header>h1,
+h2 {
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 60px;
+}
+
+header>h2 {
+  font-size: 40px;
+}
+
+/* main */
+
+main {
+  color: white;
+  font-size: 20px;
+  padding: 30px 30px;
+  background-color: #415a77;
+  margin-top: 2.5em;
+}
+
+main>div>a>img {
+  width: 70%;
+  height: 30em;
+  border-radius: 45px;
+  margin: 20px;
+}
+
+main>div>h3 {
+  font-size: 40px;
+}
+
+/* Présentation */
+
+main>.me>.reglagePhoto{
+  display:inline-flex;
+}
+
+main>.me>.reglagePhoto>span{
+  width: 35em;
+  height: 20em; 
+}
+
+main>.me>.reglagePhoto>img{
+  width: 20em;
+  height: 20em; 
+  padding: 60px;
+  border-radius: 15em;
+}
+
+/* Passion */
+
+main>div>.passion{
+  text-align: center;
+}
+
+main>div>.passion>a>img{
+  width: 50em;
+  height: 25em; 
+  padding: 5px;
+  border-radius: 2em;
+}
+
+main>h2{
+  padding-top: 3em;
+}
+
+main>.fish{
+  display:inline-flex;
+  flex-wrap: wrap;
+}
+
+main>.fish>p{
+  width: 35em;
+  height: 10em;
+  padding: 5px;
+}
+
+main>.fish>img{
+  width: 30em;
+  height: 15em; 
+  padding: 10px;
+  border-radius: 2em;
+}
+
+main>.fish>a>img{
+  width: 30em;
+  height: 15em; 
+  padding: 10px;
+  border-radius: 2em;
+}
+
+main>.fish2>img{
+  width: 30em;
+  height: 15em; 
+  padding: 10px;
+  border-radius: 2em;
+}
+
+#meleche{
+  width: 30em;
+  height: 20em;
+}
+
+#tequila{
+  width: 30em;
+  height: 20em;
+}
+/* Compétences */
+
+main>.competence>a>img{
+  width: 18em;
+  height: 18em; 
+  padding-left: 20px;
+}
+
+.git{
+  outline: none;
+  text-decoration: none;
+  color: #1b263b;
+  font-size: 30px;
+  padding: 0 15px;
+}
+
+main>.dimitri1{
+  text-align: center;
+  margin: 0 5em;
+}
+
+main>.dimitri2{
+  text-align: center;
+  padding-top: 10em;
+  margin: 0 5em;
+}
+
+main>.dimitri1>h2{
+  font-size: 40px;
+}
+
+main>.dimitri2>h2{
+  font-size: 40px;
+}
+
+/* Contact */
+
+.fini{
+  outline: none;
+  text-decoration: none;
+  color: grey;
+}
+
+/*Détail di*/
+
+
+/* footer */
+footer {
+  padding: 20px 10px;
+  margin: 30px 10px;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  border: #415a77 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* Barre nav */
+
+#test{
+  background-color: #1b263b;
+  position: sticky;
+  top: 0px;
+}
+
+#barreNav {
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+
+#test>nav>a {
+  outline: none;
+  text-decoration: none;
+  color: #415a77;
+  font-size: 30px;
+  padding: 0 15px;
+}
+
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
