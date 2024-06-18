@@ -276,7 +276,7 @@ footer {
 
 
 /* query */
-@media screen (max-width: 920px) {
+@media screen and (max-width: 920px) {
     #test{
       display: none;
     }
