@@ -205,6 +205,18 @@ footer {
 }
 
 /* Sidenav menu */
+#mySidenav>{
+  display: none;
+}
+#openBtn{
+  display:none;
+}
+
+#didi{
+  position: sticky;
+  top: 2.5em;
+}
+
 .sidenav {
   height: 100%;
   width: 250px;
@@ -257,4 +269,48 @@ footer {
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+.burger-icon>img {
+  border-radius: 20px;
+}
+
+
+/* query */
+@media screen and (max-width: 920px) {
+    #test{
+      display: none;
+    }
+
+    main>.me>.reglagePhoto{
+      display:inline;
+    }
+
+    main>.me>.reglagePhoto>img{
+      display: none;
+    }
+
+    #imagepassion{
+      height: 100%;
+      width: 100%;
+    }
+
+    #mySidenav>{
+      display:contents;
+     
+    }
+    #openBtn{
+      display: contents;
+      position: sticky;
+      top: 10px;
+    }
+
+    #fish{
+      display: inline;
+      flex-wrap: nowrap;
+    }
+
+    #fish2{
+      display:inline;
+      flex-wrap: nowrap;
+    }
 }
